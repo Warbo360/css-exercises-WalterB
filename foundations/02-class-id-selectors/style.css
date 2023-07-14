@@ -13,3 +13,5 @@
     font-size: 24px;
     font-weight: bold;
 }
+
+/* compared to the solutions.css file I could of saved on typing redundant code by just adding the .num3 class in addition to the #num4 id selector since they are the same attribute thus preventing me from writing "font-size: 24px" twice. Everything else in principal was correct though.
