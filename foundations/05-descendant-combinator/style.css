@@ -1,0 +1,8 @@
+.container .text {
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+}   
+
+/* Compared to the solutions.css I was correct in using the ".comtainer .text" descendant combinator, I did try first ".div .p" which did not work as it needed to be "div p" instead as shown by other possible solutions */
