@@ -5,10 +5,12 @@
 }
 
 .cm {
-    color: hsl(0, 22%, 96%);
     background-color: black;
+    color: hsl(0, 22%, 96%)
 }
 
 .ncm {
     background-color: rgb(235, 242, 24);
 }
+
+/* In comparing this css file to the soluton file the use of grouped selectors are the same between the two files to apply the styles that are the same between the two elements given their own classes while the styles unique to the individual classes are then selected on their own and given those styles   */
