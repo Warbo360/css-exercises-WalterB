@@ -19,7 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px;
+  padding: 8px 16px;
 }
 
 input {
@@ -62,3 +62,33 @@ a {
   text-decoration: none;
   color: #696969;
 }
+
+/* In comparing to the solution I did not have the exact spacing the solution does but the flex structure overall matches which I think is the ,more important thing any, one of the bigger differences is the soluton has "
+
+ .content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} "
+
+where my css only has " .content {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+} "
+
+missing the "flex: 1;...." value and when adding that in I did not see a differnce in display when changing the screen in either direction not sure why, only thing I can think of is I have an extra flex declaration in the body 
+
+" body {
+  ....
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} 
+
+with the extra being "justify-content: space-between", so not sure if that is interferring with that behavior or not.
+*/
